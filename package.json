@@ -20,12 +20,12 @@
     "url": "git+https://github.com/maximilianMairinger/jestExpectOrdered.git"
   },
   "keywords": [
-  "jest",
-  "expect",
-  "ordered",
-  "once",
-  "one"
-],
+    "jest",
+    "expect",
+    "ordered",
+    "once",
+    "one"
+  ],
   "author": "Maximilian Mairinger",
   "license": "ISC",
   "bugs": {
@@ -44,5 +44,8 @@
     "tslib": "2.0.0",
     "typescript": "^4.0.2",
     "webpack-merge": "^5.0.9"
+  },
+  "dependencies": {
+    "key-index": "^1.3.2"
   }
 }
