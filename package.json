@@ -1,6 +1,6 @@
 {
   "name": "jest-expect-ordered",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Jest, expect one, once and/or ordered.",
   "main": "app/dist/jestExpectOrdered.js",
   "types": "app/dist/jestExpectOrdered.d.ts",
