@@ -2,8 +2,6 @@
 
 Jest, expect one, once and/or ordered.
 
-> Please note that Jest expect ordered is currently under development and not yet suited for production
-
 ## Installation
 
 ```shell
@@ -12,12 +10,15 @@ Jest, expect one, once and/or ordered.
 
 ## Usage
 
-
-
 ```ts
-import jestExpectOrdered from "jest-expect-ordered"
+import expectOrdered from "jest-expect-ordered"
 
-jestExpectOrdered()
+
+expect.extend({
+  ...expectOrdered
+  // More Extensions
+  
+})
 ```
 
 ## Contribute
